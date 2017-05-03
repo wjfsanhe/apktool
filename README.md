@@ -25,3 +25,8 @@ It is NOT intended for piracy and other non-legal uses. It could be used for loc
 - [Source (Github)](https://github.com/iBotPeaches/Apktool)
 - [Source (Bitbucket)](https://bitbucket.org/iBotPeaches/apktool/)
 
+./gradlew
+mkdir bin
+cp cp ./scripts/linux/apktool ./bin/
+cp ../brut.apktool/apktool-cli/build/libs/apktool-2.2.3-6cc251-SNAPSHOT-small.jar ./apktool.jar
+add apktool to PATH
